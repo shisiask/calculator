@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scientific Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="display">
+            <div class="previous-operand"></div>
+            <div class="current-operand">0</div>
+        </div>
+        <div class="buttons">
+            <!-- Scientific functions row 1 -->
+            <button class="function" data-function="sin">sin</button>
+            <button class="function" data-function="cos">cos</button>
+            <button class="function" data-function="tan">tan</button>
+            <button class="operator" data-operator="^">x^y</button>
+            <button class="clear" data-action="clear">C</button>
+            
+            <!-- Scientific functions row 2 -->
+            <button class="function" data-function="asin">asin</button>
+            <button class="function" data-function="acos">acos</button>
+            <button class="function" data-function="atan">atan</button>
+            <button class="function" data-function="sqrt">√</button>
+            <button class="delete" data-action="delete">DEL</button>
+            
+            <!-- Scientific functions row 3 -->
+            <button class="function" data-function="log">log</button>
+            <button class="function" data-function="ln">ln</button>
+            <button class="constant" data-constant="e">e</button>
+            <button class="constant" data-constant="pi">π</button>
+            <button class="operator" data-operator="/">÷</button>
+            
+            <!-- Number pad row 1 -->
+            <button class="number" data-number="7">7</button>
+            <button class="number" data-number="8">8</button>
+            <button class="number" data-number="9">9</button>
+            <button class="operator" data-operator="*">×</button>
+            <button class="function" data-function="factorial">n!</button>
+            
+            <!-- Number pad row 2 -->
+            <button class="number" data-number="4">4</button>
+            <button class="number" data-number="5">5</button>
+            <button class="number" data-number="6">6</button>
+            <button class="operator" data-operator="-">−</button>
+            <button class="function" data-function="inverse">1/x</button>
+            
+            <!-- Number pad row 3 -->
+            <button class="number" data-number="1">1</button>
+            <button class="number" data-number="2">2</button>
+            <button class="number" data-number="3">3</button>
+            <button class="operator" data-operator="+">+</button>
+            <button class="function" data-function="square">x²</button>
+            
+            <!-- Number pad row 4 -->
+            <button class="number" data-number="0">0</button>
+            <button class="number" data-number=".">.</button>
+            <button class="function" data-function="negate">+/−</button>
+            <button class="equals" data-action="equals">=</button>
+            <button class="function" data-function="abs">|x|</button>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
