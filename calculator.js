@@ -289,7 +289,7 @@ document.querySelectorAll('[data-action]').forEach(button => {
 
 // Keyboard support
 document.addEventListener('keydown', (e) => {
-    if (e.key >= '0' && e.key <= '9' || e.key === '.') {
+    if ((e.key >= '0' && e.key <= '9') || e.key === '.') {
         calculator.appendNumber(e.key);
         calculator.updateDisplay();
     } else if (e.key === '+' || e.key === '-' || e.key === '*' || e.key === '/') {

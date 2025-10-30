@@ -44,7 +44,7 @@ A fully functional web-based scientific calculator with a modern, responsive des
 
 ### Example Calculations
 - **Basic**: `7 + 3 =` → 10
-- **Scientific**: Click `sin`, enter `30`, click `sin` → 0.5
+- **Scientific**: Enter `30`, click `sin` → 0.5
 - **Power**: `2`, click `x^y`, `8`, click `=` → 256
 - **Logarithm**: `100`, click `log` → 2
 - **Factorial**: `5`, click `n!` → 120
